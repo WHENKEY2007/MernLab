@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Functions</title>
+</head>
+
+<body>
+
+<h2>Factorial & Fibonacci</h2>
+
+<input type="number" id="num" placeholder="Enter number">
+<br><br>
+
+<button onclick="factorial()">Factorial</button>
+<button onclick="fibonacci()">Fibonacci</button>
+
+<p id="result"></p>
+
+<script>
+
+// Factorial Function
+function factorial(){
+let n = parseInt(document.getElementById("num").value);
+let fact = 1;
+
+for(let i=1;i<=n;i++){
+fact *= i;
+}
+
+document.getElementById("result").innerHTML = "Factorial: " + fact;
+}
+
+// Fibonacci Function
+function fibonacci(){
+let n = parseInt(document.getElementById("num").value);
+let a=0, b=1, output="";
+
+for(let i=1;i<=n;i++){
+output += a + " ";
+let temp = a + b;
+a = b;
+b = temp;
+}
+
+document.getElementById("result").innerHTML = "Fibonacci: " + output;
+}
+
+</script>
+
+</body>
+</html>

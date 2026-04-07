@@ -1,0 +1,46 @@
+/* Universal */
+*{
+font-family: Arial;
+}
+
+/* Element */
+p{
+color: blue;
+}
+
+/* ID */
+#main-title{
+color: red;
+text-align: center;
+}
+
+/* Class */
+.highlight{
+background-color: yellow;
+}
+
+/* Group */
+h2, h3{
+color: green;
+}
+
+/* Descendant */
+div p{
+font-style: italic;
+}
+
+/* Child */
+div > span{
+color: purple;
+font-weight: bold;
+}
+
+/* Adjacent sibling */
+h3 + p{
+color: orange;
+}
+
+/* General sibling */
+h3 ~ p{
+background-color: lightgray;
+}

@@ -1,0 +1,5 @@
+1. Go to MongoDB Atlas
+2. Create cluster
+3. Create database
+4. Get connection string
+5. Use mongoose.connect()
