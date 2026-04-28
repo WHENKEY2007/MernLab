@@ -8,7 +8,7 @@ This repository contains all lab programs for **Web Application Development usin
 - 📚 Subject: Web Application Development using MERN Stack  
 - 🏫 University: Aditya University  
 - 🎓 Regulation: B.Tech 2024  
-- 💻 Department: Artificial Intelligence and Machine Learning  
+- 💻 Department: Artificial Intelligence and Machine Learning (AIML)
 
 ---
 
