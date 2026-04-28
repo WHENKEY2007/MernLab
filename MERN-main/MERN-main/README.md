@@ -39,8 +39,6 @@ All programs are organized week-wise and question-wise inside this repository.
 **Q5: Forms**
 - Registration form with input fields
 
----
-
 ### 🔹 Week 2 – HTML5 & CSS
 
 **Q1: Semantic Tags**
@@ -55,7 +53,6 @@ All programs are organized week-wise and question-wise inside this repository.
 **Q4: Box Model**
 - Content, Padding, Border, Margin
 
----
 
 ### 🔹 Week 3 – JavaScript
 
